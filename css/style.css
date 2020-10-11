@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+}
+
+#container{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+p{
+	margin-top: 15px;
+}
+/* ------- header --------*/
+header{
+	width: 88%;
+	padding: 6%;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	background-image: url("../images/header.jpg");
+	background-size: cover;
+	color: white;
+}
+
+h1{
+	margin: 10px 0;
+	margin-top: 110px;
+}
+
+.geleknop{
+	margin: 20px 0 40px 0;
+	padding: 7px 20px;
+	background-color: rgb(222,236,1);
+	color: black;
+	font-size: 1.2em;
+	border: none;
+	border-radius: 7px;
+}
+
+/* ------- navbar ----------*/
+
+nav{
+	display: flex;
+	width: 100%;
+}
+
+#logo{
+	width: 60%;
+	font-size: 1.3em;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 0.9em;
+}
+
+a:hover{
+	color: rgb(222,236,1);
+}
+ul{
+	width: 39%;
+	display: flex;
+	text-align: right;
+}
+li{
+	width: 25%;
+	list-style-type: none;
+}
+
+/* ----- main ----- */
+
+main{
+	display: flex;
+}
+
+#links{
+	color: black;
+	background-color: white;
+	width: 54%;
+	padding: 6%;
+	padding-top: 10px;
+	font-size: 1em;
+}
+
+h2{
+	margin-top: 65px;
+	color: rgb(225,45,40);
+	font-size: 1.3em;
+}
+
+/* ----- rechterkolom --------*/
+
+#rechts{
+	padding: 7%;
+	width: 20%;
+	color: white;
+	background-color: rgb(42,20,6);
+	font-size: 0.9em;
+	text-align: center;
+	line-height: 1.4em;
+	overflow: hidden; /* Anders steken de strepen eruit... */
+}
+
+h3{
+	color: rgb(249,100,0);
+	font-size: 1.7em;
+	line-height: 1.7em;
+	margin-top: 35px;
+	
+}
+
+.oranjeknop{
+	padding: 4px 11px;
+	background-color: rgb(249,100,0);
+	color: white;
+	font-size: 1.2em;
+	border: none;
+	border-radius: 4px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+hr{
+	background-color: rgb(90,38,0);
+	color: rgb(90,38,0);
+	border: none;
+	height: 2px;
+	width: 200%;
+	margin: 15px;
+}
+
+.marge1{
+	margin-left: 20%;
+}
+
+.marge2{
+	margin-left: 45%;
+}
+
+.marge3{
+	margin-left: 70%;
+}
+
+/* --------- footer --------- */
+
+footer{
+	background-color: rgb(90,38,0);
+	color: white;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 15px;
+	font-size: 0.8em;
+}
+
+/* ----- details ----- */
+
+button{
+	font-weight: bold;
+}
+
+h1{
+	text-shadow: 2px 2px black;
+}
+
+h2, h3{
+	text-transform: uppercase;
+}
