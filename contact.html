@@ -20,29 +20,27 @@
           <li><a href="festivals.html"><h4>FESTIVALS</h4></a></li>
           <li><a href="contact.html"><h4>CONTACT</h4></a></li>
         </ul>
-        <a class="hamburger" href="#">&#9776;</a>
       </nav>
       <h1>street art<br>changing the world</h1>
     </header>
 
     <main>
       <form action="id" method="POST">
-        <label>Voornaam: <input type="text" name="voornaam"></label><br>
-        <label>Achternaam: <input type="text" name="email"></label><br>
-
-        <input type="radio" id="male" name="gender" value="male">
+        <label>Voornaam: </label><br>
+        <input type="text" name="voornaam" size="30"><br>
+        <label>Achternaam: </label><br>
+        <input type="text" name="achternaam" size="30"><br>
+        <br>
+        <h5>Geslacht:</h5>
+        <input class="radio" type="radio" id="male" name="gender" value="male">
         <label for="male">Man</label><br>
-
-
         <input type="radio" id="female" name="gender" value="female">
         <label for="female">Vrouw</label><br>
-
-
         <input type="radio" id="other" name="gender" value="other">
         <label for="other">Overige</label><br>
-
+        <br>
         <label>
-          Nationaliteit
+          Nationaliteit:
             <select name ="nationaliteit">
               <option value="nl">Nederlands</option>
               <option value="nw">Noors</option>
@@ -50,9 +48,9 @@
               <option value="de">Duits</option>
               <option value="eng">Engels</option>
             </select>
-        </label>
-
-        <input class="submit-btn" type="submit" name="submit" value="submit">
+        </label><br>
+        <br>
+        <input class="submit-btn" type="submit" value="submit">
       </form>
     </main>
 

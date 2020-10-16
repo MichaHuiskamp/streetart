@@ -43,6 +43,7 @@ a{
   text-decoration: none;
 	color: white;
   font-size: 1em;
+  transition: color 1s;
 }
 
 a:hover{
@@ -73,10 +74,6 @@ h1{
   margin-top: 100px;
   padding-bottom: 32px;
 
-}
-
-.hamburger{
-  display: none;
 }
 
 /* Festivals section */
@@ -170,7 +167,9 @@ article .articles{
 /* Main contact section */
 
 form{
+  width: 100%;
   margin-bottom: 100px;
+  text-align: center;
 }
 
 label{
@@ -180,10 +179,17 @@ label{
 .submit-btn{
   border-radius: 50%;
   padding: 1%;
+  margin-top: 10px;
+  transition: background-color 1s;
 }
 
 .submit-btn:hover{
   background-color: darkgreen;
+}
+
+h5{
+  color: white;
+  font-size: 16px;
 }
 
 /* Footer section */
@@ -216,6 +222,7 @@ footer{
   text-align: left;
   margin: 0 auto;
   line-height: 2;
+  transition: color 1s;
 }
 
 #footertext p:hover{
@@ -238,7 +245,7 @@ footer{
   background-image: url("../images/spray.png");
   position: absolute;
   top: -16px;
-  left: 360px;
+  left: 346px;
   z-index: 120;
 }
 
@@ -265,7 +272,8 @@ footer{
   }
 
   header{
-    width: 95%;
+    width: 94%;
+    padding-right: 20px;
     background-size: cover;
     background-position: 0 0;
   }
@@ -293,11 +301,16 @@ footer{
   }
 
   footer{
-    width: 99%;
+    width: 98%;
+    padding-right: 2px;
   }
 
   #footertext{
     left: 610px;
+  }
+
+  #footerbalk{
+    padding-right: 2px;
   }
 }
 
@@ -310,7 +323,7 @@ footer{
   }
 
   #logo{
-    background-size: 100%;
+    background-size: 50%;
   }
 
   main{
@@ -321,7 +334,7 @@ footer{
   header{
     width: 100%;
     padding: 0;
-    background-position: -305px 0px;
+    background-position: -118px 0px;
   }
 
   nav{
@@ -329,22 +342,36 @@ footer{
   }
 
   ul{
-    width: 45%;
+    width: 12%;
+    height: 86px;
     flex-direction: column;
-    margin: 18px 0 0 95px;
+    margin: 18px 0 0 156px;
+  }
+
+  li{
+    margin-left: -22%;
   }
 
   article{
-    width: 90%;
+    width: 98%;
   }
 
   article img{
     height: 43vw;
   }
 
+  article:last-child{
+    width: 98%;
+  } /* om een onbekende reden pakt hij zonder deze code de instelling van de 3de article in deze media query. Ik moest deze dus kleiner schalen via deze code */
+
   iframe{
     width: 80%;
     height: 400px;
+  }
+
+  form{
+    margin: 30px 0px;
+    font-size: 20px;
   }
 
   h1{
@@ -353,16 +380,28 @@ footer{
     margin-top: 80px;
   }
 
+  footer{
+    width: 99%;
+    padding-right: 6px;
+  }
+
   #footerboy{
     display: none;
   }
 
   #spray{
-    width: 140%;
-    left: -169px;
+    width: 113%;
+    left: -50px;
   }
 
   #footertext{
-    left: 160px;
+    left: 270px;
+    font-size: 20px;
+  }
+
+  #footerbalk{
+    height: 60px;
+    padding-right: 6px;
+    top: 126px;
   }
 }
